@@ -43,10 +43,12 @@ if (weather === "sunny") {
 // to make sure both conditions can be achieved.
 
 numQuarters = 0
-
-console.log("I have enough money for a gumball");
+costGumBall = 2
+if(numQuarters >= costGumBall){
+  console.log("I have enough money for a gumball");
+}else{
 console.log("I don't have enough money for a gumball");
-
+}
 
 // #####################
 // Using the variables defined below, write code that will tell you
@@ -64,4 +66,8 @@ console.log("I don't have enough money for a gumball");
 
 var cupsOfFlour = 1;
 var hasSauce = true;
-
+if(cupsOfFlour >= 2 && cupsOfFlour <=4 && hasSauce - true){
+console.log("I can Make pizza");
+}else{
+console.log("I can not make pizza");
+}
